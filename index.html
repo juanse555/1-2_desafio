@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    1. Tomar el archivo HTML del desafío anterior.
+    2. El contenido del archivo colocarlo dentro de un DIV.
+    3. Crear un form de contacto abajo de nuestra info.
+    -->
+
+    <div>
+        <img src="img/yo.jpeg" alt="Foto de perfil" width="300px">
+        <ul>
+            <li>Nombre: Juan Armando</li>
+            <li>Apellido: Pavón</li>
+            <li>Edad: 30</li>
+            <li>Email: pavonjuanarmando@gmail.com</li>
+        </ul>
+        <p>Me llamo juan y estoy estudiando desarrollo web en NUBA. Tengo conocimientos basicos de html, <br>
+        css, javascript</p>
+    </div>
+    <form action="">
+        <h2>Contactanos</h2>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+        </div>
+        <br>
+        <div>
+            <label for="tel">Telefono</label>
+            <input type="number" id="tel">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+        <br>
+        <div>
+            <h3>Genero</h3>
+            <label for="Mujer:">Mujer: </label>
+            <input type="radio" id="Mujer" name="gen">
+            <label for="Hombre:">Hombre: </label>
+            <input type="radio" id="Hombre" name="gen">
+        </div>
+        <br>
+        <div>
+            <label for="nacionalidad">Nacionalidad:</label>
+            <select name="" id="nacionalidad">
+                <option value="">Argentina</option>
+                <option value="">Brasil</option>
+                <option value="">Chile</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="texto">Motivo de la consulta</label>
+            <textarea id="texto" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
